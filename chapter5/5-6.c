@@ -23,5 +23,4 @@ int main()
 			else     // a가 b보다 작다면
 				printf("%d %d", c, a);    // 최댓값 c, 최솟값 a 출력
 	return 0;
-		
 }
