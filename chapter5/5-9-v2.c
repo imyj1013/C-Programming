@@ -3,7 +3,7 @@
 int main()
 {
 	int a, b, c, p, q, r;     // 변수선언
-	scanf("%d/%d/%d", &a, &b, &c);      // 값 입력받아 저장
+	scanf("%d/%d/%d", &a, &b, &c);      // 값 입력받아 저장refactor: organize resources
 	scanf("%d/%d/%d", &p, &q, &r);      // 값 입력받아 저장
 	if (a > p)     // a가 p보다 크면
 		printf("%04d/%02d/%02d", p, q, r);     // p/q/r 출력
