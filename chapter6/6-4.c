@@ -11,8 +11,8 @@ int main()
 	}
 	for (i = 1 ; i <= M ; i++) {     // i가 1부터 M 이하인 동안 반복
 		if (N % i == 0 && M % i == 0)     // N과 M을 i로 나눈 나머지가 모두 0이라면
-			result = i;     // 최소공약수 result에 i 저장
+			result = i;     // 최대공약수 result에 i 저장
 	}
-	printf("%d", result);     // 최소공약수 result 출력
+	printf("%d", result);     // 최대공약수 result 출력
 	return 0;
 }
