@@ -16,7 +16,7 @@ int main()
 	getchar();     // 엔터키 버림
 	for (i = 0; i < N; i++) {
 		a = y[i] % N;     // 정수를 N으로 나눈 나머지를 a에 저장
-		printf("x[%d%%%d]=x[%d]=%c\n", y[i], N, a, x[a]);     // 인덱스 a가 가리키는 원소를 출력
+		printf("x[%d%%%d]=x[%d]=%c\n", y[i], N, a, x[a]);   // 인덱스 a가 가리키는 원소를 출력
 	}
 	return 0;
 }
